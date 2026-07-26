@@ -17,12 +17,12 @@ LOG_GROUP_ID = int(os.getenv("LOG_GROUP_ID", None))
 HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = os.getenv("HEROKU_API_KEY")
 
-UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://github.com/NoxxOP/ShrutiMusic")
+UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://github.com/UFCUPDATES/ShrutiMusic.com")
 UPSTREAM_BRANCH = os.getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/ShrutiBots")
-SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/ShrutiBotsSupport")
+SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/addlist/XdBdVJt6lgwzZjVl")
+SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "bhi")
 INSTAGRAM = os.getenv("INSTAGRAM", "https://instagram.com/yaduwanshi_nand")
 YOUTUBE = os.getenv("YOUTUBE", "https://youtube.com/@NandEditz")
 GITHUB = os.getenv("GITHUB", "https://github.com/NoxxOP")
@@ -46,8 +46,8 @@ STRING5 = os.getenv("STRING_SESSION5", None)
 
 AUTO_LEAVING_ASSISTANT = bool(os.getenv("AUTO_LEAVING_ASSISTANT", False))
 
-START_IMG_URL = os.getenv("START_IMG_URL", "https://files.catbox.moe/7q8bfg.jpg")
-PING_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
+START_IMG_URL = os.getenv("START_IMG_URL", "https://graph.org/file/29c58c863780972ca478c-3e1c9727b2918b033e.jpg")
+PING_IMG_URL = ""https://graph.org/file/529637cb7cfbce9dcccfd-9aa8ea1972180bca8e.jpg
 PLAYLIST_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
 TELEGRAM_AUDIO_URL = "https://files.catbox.moe/eehxb4.jpg"
